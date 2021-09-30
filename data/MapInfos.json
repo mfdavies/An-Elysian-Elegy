@@ -1,5 +1,6 @@
 [
 null,
 {"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":false,"name":"Boulder Test","order":2,"parentId":1,"scrollX":309.2,"scrollY":342.8}
+{"id":2,"expanded":false,"name":"Boulder Test","order":2,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":3,"expanded":false,"name":"Pressure Plate Test","order":3,"parentId":1,"scrollX":817,"scrollY":447}
 ]
