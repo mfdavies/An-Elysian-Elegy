@@ -2,6 +2,6 @@
 null,
 {"id":1,"list":[{"code":122,"indent":0,"parameters":[2,2,0,3,5,-1,0]},{"code":122,"indent":0,"parameters":[3,3,0,3,5,-1,1]},{"code":0,"indent":0,"parameters":[]}],"name":"Player Coordinates","switchId":1,"trigger":0},
 {"id":2,"list":[{"code":122,"indent":0,"parameters":[9,9,0,3,5,4,0]},{"code":122,"indent":0,"parameters":[8,8,0,3,5,4,1]},{"code":0,"indent":0,"parameters":[]}],"name":"Boulder Coordinates","switchId":1,"trigger":0},
-{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+{"id":3,"list":[{"code":122,"indent":0,"parameters":[13,13,0,4,"$gameMap.event(9)._colliders['collision'].intersects($gamePlayer.collider())"]},{"code":0,"indent":0,"parameters":[]}],"name":"Laser config data","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":356,"indent":0,"parameters":["qMovement changeCollider 9 collision box 184 8 -64 44"]},{"code":0,"indent":0,"parameters":[]}],"name":"Laser hitbox config","switchId":1,"trigger":0}
 ]
