@@ -331,7 +331,8 @@ Galv.PROJ.fadeSpeed = Number(PluginManager.parameters('GALV_MapProjectiles')["Fa
 Galv.PROJ.eYOff = parseInt(Galv.PROJ.tileSize * 0.25);
 Galv.PROJ.hitDis = parseInt(Galv.PROJ.tileSize * 0.5);
 Galv.PROJ.requireClean = false;
-
+Galv.PROJ.xTarget = 0;
+Galv.PROJ.yTarget = 0;
 
 Galv.PROJ.premade = {};
 var premadeCheck = true;
@@ -673,7 +674,7 @@ Sprite_MapProjectile.prototype.setupHitbox = function() {
 Sprite_MapProjectile.prototype.updateDirection = function() {
 	var yo = this._yo && this._yoFix ? this._yo / 48 : 0;
 	
-	this._angle = Math.atan2(this._obj.eTarget.y - yo - this._obj.sTarget.y, this._obj.eTarget.x - this._obj.sTarget.x) * 180 / Math.PI;
+	this._angle = Math.atan2(Galv.PROJ.yTarget - yo - this._obj.sTarget.y, Galv.PROJ.xTarget - this._obj.sTarget.x) * 180 / Math.PI;
 	this.rotation = (this._angle + 90) * Math.PI / 180;
 
 	this._animId = 0;
@@ -686,7 +687,7 @@ Sprite_MapProjectile.prototype.setBitmap = function() {
 	this.anchor.y = 0.5;
 	this._cFrame = 0;
 	this._fTicker = 0;
-	this.x = this._obj.x;
+	this.x = this._obj.x + 10;
 	this.y = this._obj.y + this._yo;
 	this.z = this._obj.z;
 	var frames = this._obj.graphic.match(/\((.*)\)/i);
@@ -741,7 +742,7 @@ Sprite_MapProjectile.prototype.updateNorm = function() {
 };
 
 Sprite_MapProjectile.prototype.updatePosition = function() {
-	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize;
+	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize + 10;
 	this.y = this._obj.y - $gameMap.displayY() * Galv.PROJ.tileSize + this._yo;
 };
 
