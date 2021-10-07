@@ -9,5 +9,5 @@ var $plugins =
 {"name":"QSight","status":true,"description":"<QSight>\nReal time line of sight","parameters":{"See Through Terrain":"[]","Show":"true"}},
 {"name":"More Character Frames (MV)","status":true,"description":"Allows more than 3 Frames","parameters":{}},
 {"name":"GALV_CharacterAnimations","status":false,"description":"(v.1.8) Make the player and follower characters use different\r\ngraphics for idle, walk and run. View HELP for more info.","parameters":{"Use Jump Graphic":"true","Common Event ID":"0","Common Event Time":"0","Repeat Common Event":"0"}},
-{"name":"GALV_MessageBusts","status":true,"description":"(v.2.8) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"0","Bust Position":"0","Text X Offset":"390","Fade Out Speed":"32","Filename Append":""}}
+{"name":"GALV_MessageBusts","status":true,"description":"(v.2.8) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"380","Fade Out Speed":"32","Filename Append":""}}
 ];
