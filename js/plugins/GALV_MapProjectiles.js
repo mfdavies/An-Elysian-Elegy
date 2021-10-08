@@ -687,7 +687,7 @@ Sprite_MapProjectile.prototype.setBitmap = function() {
 	this.anchor.y = 0.5;
 	this._cFrame = 0;
 	this._fTicker = 0;
-	this.x = this._obj.x + 10;
+	this.x = this._obj.x;  // here lol  + 10
 	this.y = this._obj.y + this._yo;
 	this.z = this._obj.z;
 	var frames = this._obj.graphic.match(/\((.*)\)/i);
@@ -742,7 +742,7 @@ Sprite_MapProjectile.prototype.updateNorm = function() {
 };
 
 Sprite_MapProjectile.prototype.updatePosition = function() {
-	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize + 10;
+	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize; // here lol  + 10
 	this.y = this._obj.y - $gameMap.displayY() * Galv.PROJ.tileSize + this._yo;
 };
 
