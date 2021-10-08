@@ -421,6 +421,7 @@ function QSight() {
     Game_CharacterBase.prototype.isInsideTileShadow = function(target, options) {
       var inside = false;
       ColliderManager.getCollidersNear(options.base, function(tile) {
+        if (tile.color == "#0040ff") return false;
         if (this.canSeeThroughTile(tile)) return false;
         if (tile.intersects(options.base)) {
           var shadowData;
@@ -463,9 +464,10 @@ function QSight() {
         if (chara === this || chara === target) {
           return false;
         }
-        if (this.canSeeThroughChara(chara)) return false;
+        if (chara._priorityType !== 1) return false;
         var charaId = chara.charaId();
         var collider = chara.collider('collision');
+        if(collider._charaId == -1) return false;
         if (collider.intersects(options.base)) {
           var shadowData;
           var shadow;
@@ -535,7 +537,7 @@ function QSight() {
       } else if (shape === 'poly') {
         var w = this.collider('collision').width;
         var h = this.collider('collision').height;
-        var lw = range - w / 2;
+        var lw = 85;
         var lh = range - h / 2;
         var points = [];
         points.push(new Point(0, 0));
