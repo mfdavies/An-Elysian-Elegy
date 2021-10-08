@@ -15,5 +15,6 @@ var $plugins =
 {"name":"QM+Followers","status":true,"description":"<QMFollowers>\nQMovement Addon: Adds follower support","parameters":{}},
 {"name":"KhasCore","status":true,"description":"[2.0] Required by Khas plugins.","parameters":{}},
 {"name":"KhasGraphics","status":true,"description":"[1.1] Required by Khas graphics plugins.","parameters":{}},
-{"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}}
+{"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
+{"name":"SRD_WaitOptions","status":true,"description":"Adds more options for waiting in your events.","parameters":{"SE Wait Buffer":"4"}}
 ];
