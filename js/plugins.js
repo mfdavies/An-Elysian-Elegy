@@ -17,7 +17,8 @@ var $plugins =
 {"name":"KhasGraphics","status":true,"description":"[1.1] Required by Khas graphics plugins.","parameters":{}},
 {"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
 {"name":"GALV_CharacterAnimations","status":false,"description":"(v.1.8) Make the player and follower characters use different\r\ngraphics for idle, walk and run. View HELP for more info.","parameters":{"Use Jump Graphic":"true","Common Event ID":"0","Common Event Time":"0","Repeat Common Event":"0"}},
-{"name":"GALV_MessageBusts","status":true,"description":"(v.2.8) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"380","Fade Out Speed":"32","Filename Append":""}},
+{"name":"GALV_MessageBusts","status":true,"description":"(v.2.8) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"240","Fade Out Speed":"32","Filename Append":""}},
 {"name":"Looping Animations (MV)","status":true,"description":"Allows animations on the map to loop\r\nAlso allows animations (normal or looping) to play below/behind characters","parameters":{}},
-{"name":"Iavra_Self_Variables","status":true,"description":"Adds self variables to the game, that work similar to self switches.\r\n<Iavra Self Variables>","parameters":{"Container Name":"$gameSelfVariables","Plugin Command":"SelfVariable"}}
+{"name":"Iavra_Self_Variables","status":true,"description":"Adds self variables to the game, that work similar to self switches.\r\n<Iavra Self Variables>","parameters":{"Container Name":"$gameSelfVariables","Plugin Command":"SelfVariable"}},
+{"name":"RS_MessageAlign","status":true,"description":"(v1.0.16) This plugin allows you to align the text in the message system.","parameters":{}}
 ];
