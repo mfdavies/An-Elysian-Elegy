@@ -4,5 +4,5 @@ null,
 {"id":2,"expanded":true,"name":"Boulder Test","order":2,"parentId":1,"scrollX":892,"scrollY":615.3333333333334},
 {"id":3,"expanded":true,"name":"Pressure Plate Test","order":3,"parentId":1,"scrollX":881.3333333333334,"scrollY":604.6666666666666},
 {"id":4,"expanded":false,"name":"cutscene test","order":4,"parentId":3,"scrollX":669,"scrollY":461.5},
-{"id":5,"expanded":false,"name":"Sound Test","order":5,"parentId":1,"scrollX":973.1999999999999,"scrollY":293.4}
+{"id":5,"expanded":false,"name":"Sound Test","order":5,"parentId":1,"scrollX":811,"scrollY":461}
 ]
