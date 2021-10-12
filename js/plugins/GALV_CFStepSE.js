@@ -155,7 +155,7 @@ Game_CharacterBase.prototype.stepSeInit = function() {
 
 Game_CharacterBase.prototype.playStepSE = function(volMod) {
 	if (this._stepSeDelay < Galv.CFSTEP.delay) return;
-	var tSe = Galv.CFSTEP.terrainSounds[$gameMap.terrainTag(this._x,this._y)];
+	var tSe = Galv.CFSTEP.terrainSounds[$gameMap.terrainTag(/*this._x*/$gameVariables.value(2),/*this._y*/$gameVariables.value(3))];
 	if (tSe) {
 		var tVol = Number(tSe.volume);
 		if (volMod) tSe.volume = tSe.volume * volMod;
