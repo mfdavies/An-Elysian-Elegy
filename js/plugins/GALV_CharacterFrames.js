@@ -37,10 +37,10 @@ Galv.CF = Galv.CF || {};      // Galv's stuff
  * with other plugins that change charset motions.
  *
  * To make a charset use more than 3 frames per character, in the filename you
- * need to include %(x) where x is the number of frames per character in it.
+ * need to include @(x) where x is the number of frames per character in it.
  *
  * For example, a characterset with 8 frames per character could be named like:
- * MainHero%(8).png
+ * MainHero@(8).png
  *
  * If you are also using my 'Diagonal Movement' plugin, put this ABOVE it.
  * 
@@ -85,7 +85,7 @@ Game_CharacterBase.prototype._patSpd = 0;
 // Draw Char in menus
 Galv.CF.Galv_Window_Base_drawCharacter = Window_Base.prototype.drawCharacter;
 Window_Base.prototype.drawCharacter = function(characterName, characterIndex, x, y) {
-	var setFrame = characterName.match(/\%\((.*)\)/i);
+	var setFrame = characterName.match(/\@\((.*)\)/i);
 	
 	if (setFrame) {
 		this._cframes = Number(setFrame[1]);
@@ -106,7 +106,7 @@ Window_Base.prototype.drawCharacter = function(characterName, characterIndex, x,
 
 Galv.CF.Galv_Sprite_Character_setCharacterBitmap = Sprite_Character.prototype.setCharacterBitmap;
 Sprite_Character.prototype.setCharacterBitmap = function() {
-	var setFrame = this._characterName.match(/\%\((.*)\)/i);
+	var setFrame = this._characterName.match(/\@\((.*)\)/i);
 	if (setFrame) {
 		this._cframes = Number(setFrame[1]);
 		this._character._spattern = 0;
