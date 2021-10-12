@@ -1,5 +1,5 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Elise%(6)","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Elise","nickname":"","note":"this.disableCharAnims = TRUE;","profile":""},
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Elise@(6)","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Elise","nickname":"","note":"this.disableCharAnims = TRUE;","profile":""},
 {"id":2,"battlerName":"","characterIndex":0,"characterName":"$Sprit_Sprite","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Spirit","nickname":"","note":"","profile":""}
 ]
