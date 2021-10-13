@@ -1,9 +1,9 @@
 ## An Elysian Elegy
 
-[An Elysian Elegy - web release](/releases/techdemo/index.html)
+[An Elysian Elegy - web release](/index.html)
 
 
-[An Elysian Elegy - zip](/releases/techdemo/www.zip)
+[An Elysian Elegy - zip](/www.zip)
 
 ## Starfall Interactive consists of...
 
