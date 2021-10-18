@@ -488,7 +488,7 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
     this._tileLights.push(new Game_LightTile(x, y, lightId));
   };
   Game_Map.prototype.getHeight = function(x, y) {
-    return this.isValid(x, y) ? this._heightMap[Math.round(x)][Math.round(y)] : null;
+    return this.isValid(x, y) ? this._heightMap[x][y] : null;
   };
   Game_Map.prototype.setHeight = function(x, y, h) {
     this._heightMap[x][y] = h;
