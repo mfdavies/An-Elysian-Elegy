@@ -25,5 +25,6 @@ var $plugins =
 {"name":"TRQ_LoadGameOnGO","status":true,"description":"v1.01 Load last saved game after gameover.","parameters":{}},
 {"name":"DMY_SkipVideo","status":true,"description":"Skip video on key press","parameters":{"Disabler switch":"0"}},
 {"name":"SRD_CameraCore","status":true,"description":"Allows developers to preform various camera motions including focusing and zooming.","parameters":{"Default Zoom":"1","Zoom Pictures?":"true","Margin Formula":"(Graphics.width / scale) - Graphics.width","Fix Black Lines":"false"}},
-{"name":"GALV_DisableDash","status":true,"description":"Disable dash in your game.","parameters":{"Disable Option":"true"}}
+{"name":"GALV_DisableDash","status":true,"description":"Disable dash in your game.","parameters":{"Disable Option":"true"}},
+{"name":"GALV_PuzzleFunctions","status":true,"description":"(v.1.1) A bunch of functions to use to make eventing puzzles easier","parameters":{}}
 ];
