@@ -27,5 +27,6 @@ var $plugins =
 {"name":"GALV_DisableDash","status":true,"description":"Disable dash in your game.","parameters":{"Disable Option":"true"}},
 {"name":"GALV_PuzzleFunctions","status":true,"description":"(v.1.1) A bunch of functions to use to make eventing puzzles easier","parameters":{}},
 {"name":"GALV_MapProjectiles","status":true,"description":"(v.1.8) Create projectiles that can interact with the map and map characters","parameters":{"Tile Size":"48","Fade Speed":"40","Disable Mouse Move":"false","Premade 1":"0,-1,10,16,'sentry-laser',0,'c(5)|s(D:on)',[],[],3,3","Premade 2":"38,6,10,16,'sentry-laser',0,'c(5)|s(D:on)',[],[],3,2","Premade 3":"","Premade 4":"","Premade 5":"","Premade 6":"","Premade 7":"","Premade 8":"","Premade 9":"","Premade 10":"","Premade 11":"","Premade 12":"","Premade 13":"","Premade 14":"","Premade 15":"","Premade 16":"","Premade 17":"","Premade 18":"","Premade 19":"","Premade 20":""}},
-{"name":"OuterSelfSwitch","status":true,"description":"Changes a self switch for other events.","parameters":{}}
+{"name":"OuterSelfSwitch","status":true,"description":"Changes a self switch for other events.","parameters":{}},
+{"name":"Multi Timers (MV)","status":true,"description":"Allows more than one timer running at once, with custom commands","parameters":{}}
 ];
