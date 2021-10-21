@@ -356,7 +356,7 @@ Galv.PUZ.isAnyAt = function(eventId) {
 	allEvents = $gameMap._events
 	targetEvent = $gameMap.event(eventId);
 	for (var i = 1; i  < allEvents.length ; i++) {
-		if (allEvents[i]._eventId != eventId && (allEvents[i].x == targetEvent.x && allEvents[i].y == targetEvent.y)){
+		if (allEvents[i] ? (allEvents[i]._eventId != eventId && (allEvents[i].x == targetEvent.x && allEvents[i].y == targetEvent.y)) : false){
 			isTouchingSomething = true
 		}
 	}
