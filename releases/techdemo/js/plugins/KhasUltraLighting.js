@@ -51,6 +51,7 @@ Khas.Lighting.Addons = {};
  * @requiredAssets img/lights/tungsten
  * @requiredAssets img/lights/white
  * @requiredAssets img/lights/yellow
+ * @requiredAssets img/lights/pinky2
  * 
  * @help - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  *  * [MV] Khas Advanced Lighting
@@ -354,8 +355,17 @@ It must be set to true or false (default: true)
 
 PLACE YOUR CUSTOM LIGHTS HERE: */
 
-
-
+detection_cone: {
+  fileName: "flashlight", 
+  intensity: 70, variation: 7, size: 440,
+  offset_x: {2: 0, 4: -33, 6: 33, 8: 0 }, offset_y: {2: -48, 4: -70, 6: -70, 8: -85 },
+  syncWithDirection: true
+},
+pinky1: {
+  fileName: "pinky2",
+  intensity: 60, variation: 5,
+  offset_x: 15, offset_y: -48  
+},
 
 
 
@@ -488,7 +498,7 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
     this._tileLights.push(new Game_LightTile(x, y, lightId));
   };
   Game_Map.prototype.getHeight = function(x, y) {
-    return this.isValid(x, y) ? this._heightMap[x][y] : null;
+    return this.isValid(x, y) ? this._heightMap[Math.round(x)][Math.round(y)] : null; //sean
   };
   Game_Map.prototype.setHeight = function(x, y, h) {
     this._heightMap[x][y] = h;
@@ -892,7 +902,7 @@ function Game_LightTile() { this.initialize.apply(this, arguments); };
   Object.defineProperty(Game_LightTile.prototype, 'cast_shadows', { get: function() { return this._cast_shadows; }, });
   Game_LightTile.prototype.initialize = function(x, y, light_id) {
     this._x = x;
-    this._y = y;
+    this._y = y; 
     this._realX = x + 0.5;
     this._realY = y + 0.5;
     this._direction = 2;
@@ -1069,9 +1079,10 @@ Sprite_Light.prototype.constructor = Sprite_Light;
   Sprite_Light.prototype.setSize = function(size) {
     if (!(size > 0)) size = 100;
     size /= 100.0;
-    this.scale.x = size;
+    this.scale.x = size;// / 2;  //sean
     this.scale.y = size;
     this._current_scale = this.scale.x;
+    //this._current_scale = size; //sean edit
   };
   Sprite_Light.prototype.setRendering = function(castShadows) {
     var newCastShadows = (castShadows != null ? castShadows : true);
