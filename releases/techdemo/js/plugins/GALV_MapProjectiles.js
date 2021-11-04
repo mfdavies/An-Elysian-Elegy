@@ -304,6 +304,7 @@ Galv.PROJ = Galv.PROJ || {};      // Galv's plugin stuff
  *                       // that hits has a pid included in this list.
  *
  *   <projY:x>           // y offset for where projectiles start from.
+ *   <projX:x>           // x offset for where projectiles start from.
  *
  * ----------------------------------------------------------------------------
  *
@@ -329,6 +330,7 @@ Galv.PROJ.mouseMove = PluginManager.parameters('GALV_MapProjectiles')["Disable M
 Galv.PROJ.tileSize = Number(PluginManager.parameters('GALV_MapProjectiles')["Tile Size"]);
 Galv.PROJ.fadeSpeed = Number(PluginManager.parameters('GALV_MapProjectiles')["Fade Speed"]);
 Galv.PROJ.eYOff = parseInt(Galv.PROJ.tileSize * 0.25);
+Galv.PROJ.eXOff = parseInt(Galv.PROJ.tileSize * 0.25);
 Galv.PROJ.hitDis = parseInt(Galv.PROJ.tileSize * 0.5);
 Galv.PROJ.requireClean = false;
 
@@ -652,7 +654,7 @@ function Sprite_MapProjectile() {
 Sprite_MapProjectile.prototype = Object.create(Sprite_Base.prototype);
 Sprite_MapProjectile.prototype.constructor = Sprite_MapProjectile;
 
-Sprite_MapProjectile.prototype.initialize = function(objId,yoFix) {
+Sprite_MapProjectile.prototype.initialize = function(objId,yoFix, xoFix) {
     Sprite_Base.prototype.initialize.call(this);
 	this._obj = $gameMap._mapProjectiles[objId];
 	this._id = this._obj.id;
@@ -660,7 +662,9 @@ Sprite_MapProjectile.prototype.initialize = function(objId,yoFix) {
 	this._ticker = 0;
 	this.ttd = 5;
 	this._yo = this._obj.sTarget._projYoffset;
+	this._xo = this._obj.sTarget._projXoffset;
 	this._yoFix = yoFix || false;
+	this._xoFix = xoFix || false;
 	this.setBitmap();
 	this.updateDirection();
 	this.setupHitbox();
@@ -672,8 +676,8 @@ Sprite_MapProjectile.prototype.setupHitbox = function() {
 
 Sprite_MapProjectile.prototype.updateDirection = function() {
 	var yo = this._yo && this._yoFix ? this._yo / 48 : 0;
-	
-	this._angle = Math.atan2(this._obj.eTarget.y - yo - this._obj.sTarget.y, this._obj.eTarget.x - this._obj.sTarget.x) * 180 / Math.PI;
+	var xo = this._xo && this._xoFix ? this._xo / 48 : 0;
+	this._angle = Math.atan2(this._obj.eTarget.y - yo - this._obj.sTarget.y, this._obj.eTarget.x - this._obj.sTarget.x - xo) * 180 / Math.PI;
 	this.rotation = (this._angle + 90) * Math.PI / 180;
 
 	this._animId = 0;
@@ -686,7 +690,7 @@ Sprite_MapProjectile.prototype.setBitmap = function() {
 	this.anchor.y = 0.5;
 	this._cFrame = 0;
 	this._fTicker = 0;
-	this.x = this._obj.x;
+	this.x = this._obj.x + this._xo;
 	this.y = this._obj.y + this._yo;
 	this.z = this._obj.z;
 	var frames = this._obj.graphic.match(/\((.*)\)/i);
@@ -741,7 +745,7 @@ Sprite_MapProjectile.prototype.updateNorm = function() {
 };
 
 Sprite_MapProjectile.prototype.updatePosition = function() {
-	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize;
+	this.x = this._obj.x - $gameMap.displayX() * Galv.PROJ.tileSize + this._xo;
 	this.y = this._obj.y - $gameMap.displayY() * Galv.PROJ.tileSize + this._yo;
 };
 
@@ -779,7 +783,7 @@ Sprite_MapProjectile.prototype.updateCollide = function() {
 };
 
 Sprite_MapProjectile.prototype.checkHitPlayer = function() {
-	var dist = Galv.PROJ.dist($gamePlayer.screenX(),$gamePlayer.screenY() - Galv.PROJ.eYOff,this.x,this.y);
+	var dist = Galv.PROJ.dist($gamePlayer.screenX() - Galv.PROJ.eXOff,$gamePlayer.screenY() - Galv.PROJ.eYOff,this.x,this.y);
 	return this._obj.sTarget != $gamePlayer && !$gamePlayer.projDodge && dist < this._hitDist && this.isSameLevel($gamePlayer._priorityType);
 };
 
@@ -797,7 +801,7 @@ Sprite_MapProjectile.prototype.checkHitEvent = function() {
 	var events = $gameMap.events();
 	var event = null;
 	for (var i = 0; i < events.length; i++) {
-		var dis = Galv.PROJ.dist(events[i].screenX(),events[i].screenY() - Galv.PROJ.eYOff,this.x,this.y);
+		var dis = Galv.PROJ.dist(events[i].screenX() - Galv.PROJ.eXOff,events[i].screenY() - Galv.PROJ.eYOff,this.x,this.y);
 
 		if (dis < this._hitDist && events[i] != this._obj.sTarget && this.isBlockerEvent(events[i])) {
 			event = events[i];
@@ -862,6 +866,7 @@ Galv.PROJ.Game_Player_initMembers = Game_Player.prototype.initMembers;
 Game_Player.prototype.initMembers = function() {
 	this._projEffects = true;
 	this._projYoffset = 0;
+	this._projXoffset = 0;
 	Galv.PROJ.Game_Player_initMembers.call(this);
 };
 
@@ -891,15 +896,21 @@ Game_Event.prototype.setProjStuff = function() {
 	var page = this.page();
 	this.initProjVars();
 	if (!page) return;
-	
+	this._projYoffset = 0;
+	this._projXoffset = 0;
 	for (var i = 0; i < page.list.length; i++) {
 		if (page.list[i].code == 108) {
 			var params = page.list[i].parameters[0];
 			
 			var yO = params.match(/<projY:(.*)>/i)
-			this._projYoffset = yO ? Number(yO[1]) : 0;
-			
-			
+			if(yO){
+				this._projYoffset = Number(yO[1]);
+			}
+			var xO = params.match(/<projX:(.*)>/i)
+			if(xO){
+				this._projXoffset = Number(xO[1]);
+			}
+
 			if (params == '<projEffect>') {
 				this._projEffects = true;
 				continue;
