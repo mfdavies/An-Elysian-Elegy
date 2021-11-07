@@ -333,7 +333,8 @@ Galv.PROJ.eYOff = parseInt(Galv.PROJ.tileSize * 0.25);
 Galv.PROJ.eXOff = parseInt(Galv.PROJ.tileSize * 0.25);
 Galv.PROJ.hitDis = parseInt(Galv.PROJ.tileSize * 0.5);
 Galv.PROJ.requireClean = false;
-
+Galv.PROJ.xTarget = 0;
+Galv.PROJ.yTarget = 0;
 
 Galv.PROJ.premade = {};
 var premadeCheck = true;
@@ -665,6 +666,7 @@ Sprite_MapProjectile.prototype.initialize = function(objId,yoFix, xoFix) {
 	this._xo = this._obj.sTarget._projXoffset;
 	this._yoFix = yoFix || false;
 	this._xoFix = xoFix || false;
+	this._pT = this._obj.sTarget._playerTarget;
 	this.setBitmap();
 	this.updateDirection();
 	this.setupHitbox();
@@ -677,7 +679,11 @@ Sprite_MapProjectile.prototype.setupHitbox = function() {
 Sprite_MapProjectile.prototype.updateDirection = function() {
 	var yo = this._yo && this._yoFix ? this._yo / 48 : 0;
 	var xo = this._xo && this._xoFix ? this._xo / 48 : 0;
-	this._angle = Math.atan2(this._obj.eTarget.y - yo - this._obj.sTarget.y, this._obj.eTarget.x - this._obj.sTarget.x - xo) * 180 / Math.PI;
+	if (this._pT){
+		this._angle = Math.atan2(Galv.PROJ.yTarget - yo - this._obj.sTarget.y, Galv.PROJ.xTarget - this._obj.sTarget.x - xo) * 180 / Math.PI;
+	} else {
+		this._angle = Math.atan2(this._obj.eTarget.y - yo - this._obj.sTarget.y, this._obj.eTarget.x - this._obj.sTarget.x - xo) * 180 / Math.PI;
+	}
 	this.rotation = (this._angle + 90) * Math.PI / 180;
 
 	this._animId = 0;
@@ -865,6 +871,7 @@ Sprite_MapProjectile.prototype.setupAnimation = function() {
 Galv.PROJ.Game_Player_initMembers = Game_Player.prototype.initMembers;
 Game_Player.prototype.initMembers = function() {
 	this._projEffects = true;
+	this._playerTarget = false;
 	this._projYoffset = 0;
 	this._projXoffset = 0;
 	Galv.PROJ.Game_Player_initMembers.call(this);
@@ -898,6 +905,7 @@ Game_Event.prototype.setProjStuff = function() {
 	if (!page) return;
 	this._projYoffset = 0;
 	this._projXoffset = 0;
+	this._playerTarget = false;
 	for (var i = 0; i < page.list.length; i++) {
 		if (page.list[i].code == 108) {
 			var params = page.list[i].parameters[0];
@@ -905,11 +913,18 @@ Game_Event.prototype.setProjStuff = function() {
 			var yO = params.match(/<projY:(.*)>/i)
 			if(yO){
 				this._projYoffset = Number(yO[1]);
+				continue;
 			}
 			var xO = params.match(/<projX:(.*)>/i)
 			if(xO){
 				this._projXoffset = Number(xO[1]);
+				continue;
 			}
+
+			if (params == '<playerTarget>') {
+				this._playerTarget = true;
+				continue;
+			};
 
 			if (params == '<projEffect>') {
 				this._projEffects = true;
