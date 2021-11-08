@@ -353,6 +353,11 @@ Since version 4.0, a new parameter can be added: cast_shadows
 It must be set to true or false (default: true)
 
 PLACE YOUR CUSTOM LIGHTS HERE: */
+pinky1: {
+  fileName: "pinky2",
+  intensity: 60, variation: 5,
+  offset_x: 15, offset_y: -48  
+},
 
 
 
@@ -488,7 +493,7 @@ PixiOutOfDateError.prototype.constructor = PixiOutOfDateError;
     this._tileLights.push(new Game_LightTile(x, y, lightId));
   };
   Game_Map.prototype.getHeight = function(x, y) {
-    return this.isValid(x, y) ? this._heightMap[x][y] : null;
+    return this.isValid(x, y) ? this._heightMap[Math.round(x)][Math.round(y)] : null; //Changed Here
   };
   Game_Map.prototype.setHeight = function(x, y, h) {
     this._heightMap[x][y] = h;
