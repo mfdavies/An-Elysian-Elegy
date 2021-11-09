@@ -33,6 +33,5 @@ var $plugins =
 {"name":"OuterSelfSwitch","status":true,"description":"Changes a self switch for other events.","parameters":{}},
 {"name":"Multi Timers (MV)","status":true,"description":"Allows more than one timer running at once, with custom commands","parameters":{}},
 {"name":"GALV_MapAnimEffects","status":true,"description":"Enhance the usability of animations and use them to create effects when characters stand on regions.","parameters":{"Region Effects":"7,10,a-fly | 2,9,a+fly | 5,11,a","Followers":"true"}},
-{"name":"Sean_Basic_Menu","status":true,"description":"","parameters":{"Text Variable":"18","Window X":"0","Window Y":"0"}},
-{"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}}
+{"name":"Sean_Basic_Menu","status":true,"description":"","parameters":{"Text Variable":"18","Window X":"0","Window Y":"0"}}
 ];
