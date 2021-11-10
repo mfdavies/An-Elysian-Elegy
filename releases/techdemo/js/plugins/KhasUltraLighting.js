@@ -359,7 +359,11 @@ pinky1: {
   offset_x: 15, offset_y: -48  
 },
 
-
+pinky2: {
+  fileName: "pinky2",
+  intensity: 60, variation: 5,
+  offset_x: 0, offset_y: 0  
+},
 
 
 
