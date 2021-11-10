@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":false,"name":"Vertical Slice","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1617.4285714285713},
-{"id":2,"expanded":true,"name":"Hub 1","order":6,"parentId":6,"scrollX":1404,"scrollY":782.5714285714286},
+{"id":2,"expanded":true,"name":"Hub 1","order":6,"parentId":6,"scrollX":809,"scrollY":1041},
 {"id":3,"expanded":true,"name":"Level 2B","order":10,"parentId":6,"scrollX":1390.2857142857142,"scrollY":1137.4285714285713},
 {"id":4,"expanded":true,"name":"Level 1A","order":7,"parentId":6,"scrollX":1390.2857142857142,"scrollY":2097.428571428571},
 {"id":5,"expanded":true,"name":"Tech Demo V2","order":1,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1922.5714285714284},
