@@ -1,15 +1,15 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Vertical Slice","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1617.4285714285713},
-{"id":2,"expanded":true,"name":"Hub 1","order":6,"parentId":6,"scrollX":1404,"scrollY":782.5714285714286},
-{"id":3,"expanded":true,"name":"Level 2B","order":10,"parentId":6,"scrollX":1390.2857142857142,"scrollY":1137.4285714285713},
-{"id":4,"expanded":true,"name":"Level 1A","order":7,"parentId":6,"scrollX":1390.2857142857142,"scrollY":2097.428571428571},
+{"id":1,"expanded":false,"name":"Vertical Slice","order":2,"parentId":0,"scrollX":1390,"scrollY":1617},
+{"id":2,"expanded":true,"name":"Hub 1","order":6,"parentId":6,"scrollX":809,"scrollY":1041},
+{"id":3,"expanded":true,"name":"Level 2B","order":10,"parentId":6,"scrollX":809,"scrollY":1193},
+{"id":4,"expanded":true,"name":"Level 1A","order":7,"parentId":6,"scrollX":809,"scrollY":2433},
 {"id":5,"expanded":true,"name":"Tech Demo V2","order":1,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1922.5714285714284},
-{"id":6,"expanded":true,"name":"Transition World","order":3,"parentId":0,"scrollX":1404,"scrollY":782.5714285714286},
-{"id":7,"expanded":true,"name":"Level 1B","order":8,"parentId":6,"scrollX":1390.2857142857142,"scrollY":3537.428571428571},
-{"id":8,"expanded":true,"name":"Level 2A","order":9,"parentId":6,"scrollX":1390.2857142857142,"scrollY":2097.428571428571},
+{"id":6,"expanded":true,"name":"Transition World","order":3,"parentId":0,"scrollX":809,"scrollY":1041},
+{"id":7,"expanded":true,"name":"Level 1B","order":8,"parentId":6,"scrollX":809,"scrollY":3873},
+{"id":8,"expanded":true,"name":"Level 2A","order":9,"parentId":6,"scrollX":809,"scrollY":2433},
 {"id":9,"expanded":false,"name":"Boss","order":12,"parentId":6,"scrollX":1404,"scrollY":782.5714285714286},
-{"id":10,"expanded":true,"name":"TutorialB(10)","order":5,"parentId":6,"scrollX":1390.2857142857142,"scrollY":897.4285714285713},
+{"id":10,"expanded":true,"name":"TutorialB(10)","order":5,"parentId":6,"scrollX":809,"scrollY":897},
 {"id":11,"expanded":true,"name":"Pre Boss","order":11,"parentId":6,"scrollX":1404,"scrollY":782.5714285714286},
-{"id":12,"expanded":false,"name":"TutorialA(10)","order":4,"parentId":6,"scrollX":1404,"scrollY":782.5714285714286}
+{"id":12,"expanded":false,"name":"TutorialA(10)","order":4,"parentId":6,"scrollX":817,"scrollY":447}
 ]
