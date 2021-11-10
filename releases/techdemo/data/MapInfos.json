@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Vertical Slice","order":2,"parentId":0,"scrollX":1234,"scrollY":1258},
+{"id":1,"expanded":false,"name":"Vertical Slice","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1609.7142857142856},
 {"id":2,"expanded":true,"name":"Hub 1","order":6,"parentId":6,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":3,"expanded":true,"name":"Level 2B","order":10,"parentId":6,"scrollX":1390.2857142857142,"scrollY":1129.7142857142856},
 {"id":4,"expanded":true,"name":"Level 1A","order":7,"parentId":6,"scrollX":1390.2857142857142,"scrollY":821.1428571428571},
