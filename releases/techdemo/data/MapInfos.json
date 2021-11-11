@@ -15,5 +15,5 @@ null,
 {"id":13,"expanded":true,"name":"Cutscene3","order":9,"parentId":6,"scrollX":759.3333333333334,"scrollY":422},
 {"id":14,"expanded":true,"name":"Cutscene4","order":12,"parentId":6,"scrollX":759.3333333333334,"scrollY":422},
 {"id":15,"expanded":true,"name":"Cutscene5","order":13,"parentId":6,"scrollX":759.3333333333334,"scrollY":422},
-{"id":16,"expanded":true,"name":"Post Boss","order":16,"parentId":6,"scrollX":822.5454545454545,"scrollY":693.8181818181819}
+{"id":16,"expanded":true,"name":"Post Boss","order":16,"parentId":6,"scrollX":809,"scrollY":752}
 ]
