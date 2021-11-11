@@ -14,6 +14,7 @@ HINTS:
     Pillars can be pushed into pits
     Lasers can be blocked by pillars
     Buttons can be held down by pillars
+    The gems are for completionists only
 ## Starfall Interactive consists of...
 
 ### Producer
