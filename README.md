@@ -15,6 +15,11 @@ HINTS:
     Lasers can be blocked by pillars
     Buttons can be held down by pillars
     The gems are for completionists only
+
+
+Survery: 
+    https://docs.google.com/forms/d/15AAhhTlNMycyPB9DvteyIfN45OQdeaKFKBlT8OYBllo/edit?usp=drivesdk
+
 ## Starfall Interactive consists of...
 
 ### Producer
