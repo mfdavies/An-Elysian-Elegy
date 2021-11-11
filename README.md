@@ -2,9 +2,6 @@
 
 [An Elysian Elegy - web release](/releases/techdemo/index.html)
 
-
-[An Elysian Elegy - zip](/releases/techdemo/Beta.zip)
-
 Instructions:
     "WASD" or Arrow Keys to move.
     "G" to view the next goal of the level
