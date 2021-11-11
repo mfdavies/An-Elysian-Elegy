@@ -17,8 +17,7 @@ HINTS:
 \n    - The gems are for completionists only
 
 
-Survey: 
-    https://docs.google.com/forms/d/15AAhhTlNMycyPB9DvteyIfN45OQdeaKFKBlT8OYBllo/edit?usp=drivesdk
+: <a href="https://docs.google.com/forms/d/15AAhhTlNMycyPB9DvteyIfN45OQdeaKFKBlT8OYBllo/edit?usp=drivesdk">Survey</a>
 
 ## Starfall Interactive consists of...
 
