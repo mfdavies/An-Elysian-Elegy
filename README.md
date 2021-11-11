@@ -38,4 +38,5 @@ HINTS:
 ### Writing
 - Marc Vermette
 
-
+### EP
+- Nicole Chik
