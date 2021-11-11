@@ -5,6 +5,17 @@
 
 [An Elysian Elegy - zip](/releases/techdemo/ElysianElegyTechDemo.zip)
 
+Instructions:
+    "WASD" or Arrow Keys to move.
+    "G" to view the next goal of the level
+    "SHIFT" to use the phase ability (Once aquired)
+    "Z" + "X" while in a level to return to the hub 
+    "SPACE" to intreact/move objects (pillars)
+
+HINTS:
+    Pillars can be pushed into pits
+    Lasers can be blocked by pillars
+    Buttons can be held down by pillars
 ## Starfall Interactive consists of...
 
 ### Producer
