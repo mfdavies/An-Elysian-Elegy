@@ -3,11 +3,12 @@
 [An Elysian Elegy - web release](/releases/techdemo/index.html)
 
 
-[An Elysian Elegy - zip](/releases/techdemo/ElysianElegyTechDemo.zip)
+[An Elysian Elegy - zip](/releases/techdemo/Beta.zip)
 
 Instructions:
     "WASD" or Arrow Keys to move.
     "G" to view the next goal of the level
+    "R" to reset the level
     "SHIFT" to use the phase ability (Once aquired)
     "Z" + "X" while in a level to return to the hub 
     "SPACE" to intreact/move objects (pillars)
