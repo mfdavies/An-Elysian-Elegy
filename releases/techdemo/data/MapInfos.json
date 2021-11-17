@@ -2,18 +2,18 @@
 null,
 null,
 {"id":2,"expanded":true,"name":"Hub 1","order":4,"parentId":6,"scrollX":1258,"scrollY":750},
-{"id":3,"expanded":true,"name":"Level 2B","order":9,"parentId":6,"scrollX":1242,"scrollY":786},
+{"id":3,"expanded":true,"name":"Level 2B","order":9,"parentId":6,"scrollX":720.8,"scrollY":1034.4},
 {"id":4,"expanded":true,"name":"Level 1A","order":5,"parentId":6,"scrollX":1242,"scrollY":1314},
 null,
 {"id":6,"expanded":true,"name":"Transition World","order":1,"parentId":0,"scrollX":2184,"scrollY":1208},
 {"id":7,"expanded":true,"name":"Level 1B","order":6,"parentId":6,"scrollX":1242,"scrollY":1890},
 {"id":8,"expanded":true,"name":"Level 2A","order":8,"parentId":6,"scrollX":1242,"scrollY":1208},
 {"id":9,"expanded":false,"name":"Boss","order":13,"parentId":6,"scrollX":1638,"scrollY":906},
-{"id":10,"expanded":true,"name":"TutorialB(10)","order":3,"parentId":6,"scrollX":811,"scrollY":1186},
+{"id":10,"expanded":true,"name":"TutorialB(10)","order":3,"parentId":6,"scrollX":816,"scrollY":890},
 {"id":11,"expanded":true,"name":"Pre Boss","order":12,"parentId":6,"scrollX":1638,"scrollY":906},
-{"id":12,"expanded":false,"name":"TutorialA(10)","order":2,"parentId":6,"scrollX":893.4545454545455,"scrollY":494.1818181818182},
+{"id":12,"expanded":false,"name":"TutorialA(10)","order":2,"parentId":6,"scrollX":648.8,"scrollY":399.2},
 {"id":13,"expanded":true,"name":"Cutscene3","order":7,"parentId":6,"scrollX":1258,"scrollY":750},
 {"id":14,"expanded":true,"name":"Cutscene4","order":10,"parentId":6,"scrollX":819,"scrollY":453},
 {"id":15,"expanded":true,"name":"Cutscene5","order":11,"parentId":6,"scrollX":1638,"scrollY":906},
-{"id":16,"expanded":true,"name":"Post Boss","order":14,"parentId":6,"scrollX":1638,"scrollY":906}
+{"id":16,"expanded":true,"name":"Post Boss","order":14,"parentId":6,"scrollX":832,"scrollY":640}
 ]
