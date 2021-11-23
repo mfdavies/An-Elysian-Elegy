@@ -3,18 +3,22 @@
 [An Elysian Elegy - web release](/releases/techdemo/index.html)
 
 Instructions:
-    "WASD" or Arrow Keys to move.
-    "G" to view the next goal of the level
-    "R" to reset the level
-    "SHIFT" to use the phase ability (Once aquired)
-    "Z" + "X" while in a level to return to the hub 
-    "SPACE" to intreact/move objects (pillars)
+<br>    "WASD" or Arrow Keys to move.
+<br>    "G" to view the next goal of the level
+<br>    "R" to reset the level
+<br>    "SHIFT" to use the phase ability (Once aquired)
+<br>    "Z" + "X" while in a level to return to the hub 
+<br>    "SPACE" to intreact/move objects (pillars)
 
 HINTS:
-    Pillars can be pushed into pits
-    Lasers can be blocked by pillars
-    Buttons can be held down by pillars
-    The gems are for completionists only
+<br>    - Pillars can be pushed into pits
+<br>    - Lasers can be blocked by pillars
+<br>    - Buttons can be held down by pillars
+<br>    - The gems are for completionists only
+
+
+<a href="https://docs.google.com/forms/d/15AAhhTlNMycyPB9DvteyIfN45OQdeaKFKBlT8OYBllo/edit?usp=drivesdk">Survey</a>
+
 ## Starfall Interactive consists of...
 
 ### Producer
@@ -38,4 +42,5 @@ HINTS:
 ### Writing
 - Marc Vermette
 
-
+### EP
+- Nicole Chik
