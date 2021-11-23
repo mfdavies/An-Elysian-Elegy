@@ -1,0 +1,58 @@
+Text that appears outside of the block tags will not display in the credits scene
+
+<block:-1,-1,10,10,offbot,center,Title_temp>
+\c[30]CREDITS
+
+\c[30]Producer
+Jason Lee
+
+\c[30]Lead Designer
+Sean Meyers
+
+\c[30]Art
+Shirley Yang
+
+\c[30]Programming
+Anthony Ma
+Jason Lee
+Matthew Davies
+Sean Meyers
+
+\c[30]Sound Design
+Sean Meyers
+
+\c[30]Writing
+Marc Vermette
+
+\c[30]EP
+Nicole Chik
+
+\c[30]Engine (RPG Maker MV)
+Degica
+
+\c[30]Plugin Programmers
+Biud436
+Dmytryk
+DrDhoom
+Galv
+Iavra
+Khas
+Quxios
+Shaz
+SumRndmDde
+Yanfly
+Yoji Ojima
+krmbn0576
+
+\c[30]Playtesters
+Andrew Su
+Lukas Bonkowski
+Tyler Park
+
+\c[30]External Links
+SumRndmDde: http://sumrndm.site/
+</block>
+
+<block:999,0,10,10,300,center,Title_temp>
+THE END
+</block>

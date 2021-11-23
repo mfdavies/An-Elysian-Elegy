@@ -24,7 +24,6 @@ var $plugins =
 {"name":"GALV_MessageBusts","status":true,"description":"(v.2.8) Displays a bust image instead of selected face image","parameters":{"Bust Priority":"1","Bust Position":"1","Text X Offset":"240","Fade Out Speed":"32","Filename Append":""}},
 {"name":"Iavra_Self_Variables","status":true,"description":"Adds self variables to the game, that work similar to self switches.\r\n<Iavra Self Variables>","parameters":{"Container Name":"$gameSelfVariables","Plugin Command":"SelfVariable"}},
 {"name":"RS_MessageAlign","status":true,"description":"(v1.0.16) This plugin allows you to align the text in the message system.","parameters":{}},
-{"name":"TRQ_LoadGameOnGO","status":true,"description":"v1.01 Load last saved game after gameover.","parameters":{}},
 {"name":"DMY_SkipVideo","status":true,"description":"Skip video on key press","parameters":{"Disabler switch":"0"}},
 {"name":"SRD_CameraCore","status":true,"description":"Allows developers to preform various camera motions including focusing and zooming.","parameters":{"Default Zoom":"1","Zoom Pictures?":"true","Margin Formula":"(Graphics.width / scale) - Graphics.width","Fix Black Lines":"false"}},
 {"name":"GALV_DisableDash","status":true,"description":"Disable dash in your game.","parameters":{"Disable Option":"true"}},
@@ -34,5 +33,6 @@ var $plugins =
 {"name":"Multi Timers (MV)","status":true,"description":"Allows more than one timer running at once, with custom commands","parameters":{}},
 {"name":"GALV_MapAnimEffects","status":true,"description":"Enhance the usability of animations and use them to create effects when characters stand on regions.","parameters":{"Region Effects":"7,10,a-fly | 2,9,a+fly | 5,11,a","Followers":"true"}},
 {"name":"Sean_Basic_Menu","status":true,"description":"","parameters":{"Text Variable":"18","Window X":"0.30","Window Y":"0.30"}},
-{"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}}
+{"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}},
+{"name":"GALV_RollCredits","status":true,"description":"(v.1.5) A plugin that calls a new scene to display scrolling information located in an external text file.","parameters":{"Folder":"data","Skippable":"false","Block Skipping":"false","Title Menu":"Credits","Title Credits Music":""}}
 ];
