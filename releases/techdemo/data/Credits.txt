@@ -46,8 +46,15 @@ krmbn0576
 
 \c[30]Playtesters
 Andrew Su
+Faiyaz Ahmed
+Fatin Ahdiat
+Gaby Castaneda
+Hammad Khan
+Jillian Muller
 Lukas Bonkowski
+Mikee Castaneda
 Tyler Park
+Victor Lieu
 
 \c[30]External Links
 SumRndmDde: http://sumrndm.site/
