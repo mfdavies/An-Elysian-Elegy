@@ -10,7 +10,7 @@ var $plugins =
 {"name":"SRD_HUDMaker","status":true,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"show","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}},
 {"name":"AudioStreaming","status":true,"description":"Load audio faster and use only ogg files.","parameters":{"mode":"00","deleteM4a":"false"}},
 {"name":"QSight","status":true,"description":"<QSight>\nReal time line of sight","parameters":{"See Through Terrain":"[]","Show":"false"}},
-{"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"20","screenWidth":"1104","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
+{"name":"Community_Basic","status":false,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"20","screenWidth":"1104","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"KhasCore","status":true,"description":"[2.0] Required by Khas plugins.","parameters":{}},
 {"name":"KhasGraphics","status":true,"description":"[1.1] Required by Khas graphics plugins.","parameters":{}},
 {"name":"KhasUltraLighting","status":true,"description":"[4.2] Adds lighting and real-time shadows to your game.","parameters":{"Custom Blending":"ON","Transfer Reset":"OFF","Auto Battle Lighting":"ON"}},
@@ -34,5 +34,6 @@ var $plugins =
 {"name":"Multi Timers (MV)","status":true,"description":"Allows more than one timer running at once, with custom commands","parameters":{}},
 {"name":"GALV_MapAnimEffects","status":true,"description":"Enhance the usability of animations and use them to create effects when characters stand on regions.","parameters":{"Region Effects":"7,10,a-fly | 2,9,a+fly | 5,11,a","Followers":"true"}},
 {"name":"Sean_Basic_Menu","status":true,"description":"","parameters":{"Text Variable":"18","Window X":"0.30","Window Y":"0.30"}},
-{"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}}
+{"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}},
+{"name":"WebFullScreen","status":true,"description":"Fit to Browser v1.00","parameters":{"Minimum Width":"816","Minimum Height":"624","Maximum Width":"1104","Maximum Height":"624"}}
 ];
