@@ -35,5 +35,5 @@ var $plugins =
 {"name":"GALV_MapAnimEffects","status":true,"description":"Enhance the usability of animations and use them to create effects when characters stand on regions.","parameters":{"Region Effects":"7,10,a-fly | 2,9,a+fly | 5,11,a","Followers":"true"}},
 {"name":"Sean_Basic_Menu","status":true,"description":"","parameters":{"Text Variable":"18","Window X":"0.30","Window Y":"0.30"}},
 {"name":"YEP_MoveRouteCore","status":true,"description":"v1.04 Expand the number of movement options for the move\nroute events using this plugin.","parameters":{}},
-{"name":"WebFullScreen","status":true,"description":"Fit to Browser v1.00","parameters":{"Minimum Width":"816","Minimum Height":"624","Maximum Width":"1104","Maximum Height":"624"}}
+{"name":"WebFullScreen","status":true,"description":"Fit to Browser v1.00","parameters":{"Minimum Width":"816","Minimum Height":"624","Maximum Width":"816","Maximum Height":"624"}}
 ];
