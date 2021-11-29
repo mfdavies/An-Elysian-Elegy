@@ -1,36 +1,33 @@
-Text that appears outside of the block tags will not display in the credits scene
+CREDITS
 
-<block:-1,-1,10,10,offbot,center,Title_temp>
-\c[30]CREDITS
-
-\c[30]Producer
+Producer
 Jason Lee
 
-\c[30]Lead Designer
+Lead Designer
 Sean Meyers
 
-\c[30]Art
+Art
 Shirley Yang
 
-\c[30]Programming
+Programming
 Anthony Ma
 Jason Lee
 Matthew Davies
 Sean Meyers
 
-\c[30]Sound Design
+Sound Design
 Sean Meyers
 
-\c[30]Writing
+Writing
 Marc Vermette
 
-\c[30]EP
+EP
 Nicole Chik
 
-\c[30]Engine (RPG Maker MV)
+Engine (RPG Maker MV)
 Degica
 
-\c[30]Plugin Programmers
+Plugin Programmers
 Biud436
 Dmytryk
 DrDhoom
@@ -44,23 +41,27 @@ Yanfly
 Yoji Ojima
 krmbn0576
 
-\c[30]Playtesters
+Playtesters
 Andrew Su
+Boris Fleysher
+Dawn Estes McKnight
 Faiyaz Ahmed
 Fatin Ahdiat
 Gaby Castaneda
 Hammad Khan
+Jawdat Toume
 Jillian Muller
 Lukas Bonkowski
 Mikee Castaneda
 Samuel Anderson
 Tyler Park
 Victor Lieu
+Anonymous
 
-\c[30]External Links
+External Music
+G.F.Haendel, The Messiah, "Hallelujah". performed by Orchestra Gli Armonici. recording curtesy of museopen.org
+
+External Links
 SumRndmDde: http://sumrndm.site/
-</block>
 
-<block:999,0,10,10,300,center,Title_temp>
 THE END
-</block>
