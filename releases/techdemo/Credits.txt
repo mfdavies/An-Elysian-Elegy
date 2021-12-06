@@ -29,11 +29,13 @@ Degica
 
 Plugin Programmers
 Biud436
+DKPlugins
 Dmytryk
 DrDhoom
 Galv
 Iavra
 Khas
+Moghunter
 Quxios
 Shaz
 SumRndmDde
@@ -59,7 +61,7 @@ Victor Lieu
 Anonymous
 
 External Music
-G.F.Haendel, The Messiah, "Hallelujah". performed by Orchestra Gli Armonici. recording curtesy of museopen.org
+G.F.Haendel, The Messiah, "Hallelujah". performed by Orchestra Gli Armonici. recording curtesy of musopen.org
 
 External Links
 SumRndmDde: http://sumrndm.site/
