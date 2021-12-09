@@ -33,15 +33,16 @@ DKPlugins
 Dmytryk
 DrDhoom
 Galv
+Hime
 Iavra
 Khas
+krmbn0576
 Moghunter
 Quxios
 Shaz
 SumRndmDde
 Yanfly
 Yoji Ojima
-krmbn0576
 
 Playtesters
 Andrew Su
