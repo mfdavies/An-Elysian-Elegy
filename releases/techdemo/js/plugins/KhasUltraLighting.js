@@ -365,8 +365,17 @@ pinky2: {
   offset_x: 0, offset_y: 0  
 },
 
+pinkyoutdoor: {
+  fileName: "pinky3",
+  intensity:  50, variation: 2,
+  offset_x: 20, offset_y: -56   
+},
 
-
+pinkyoutdoorevent: {
+  fileName: "pinky3",
+  intensity:  50, variation: 2,
+  offset_x: 0, offset_y: 5   
+},
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // * Custom Lights - End
