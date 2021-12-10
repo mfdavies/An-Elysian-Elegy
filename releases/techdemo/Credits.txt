@@ -29,7 +29,6 @@ Degica
 
 Plugin Programmers
 Biud436
-DKPlugins
 Dmytryk
 DrDhoom
 Galv
