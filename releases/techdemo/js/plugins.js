@@ -39,5 +39,6 @@ var $plugins =
 {"name":"SRD_Debug_SpeedUp","status":true,"description":"Allows you to speed up your game during testing!","parameters":{"Playtesting Only?":"false","Speed Toggle Key":"L","Fade Indicator?":"false","== Speed Keys ==":"","x1 Speed Key":"","x1.25 Speed Key":"","x1.5 Speed Key":"","x2 Speed Key":"","x3 Speed Key":"","x5 Speed Key":"","x10 Speed Key":""}},
 {"name":"HIME_PreTitleEvents","status":true,"description":"Build your own sequence of events that should occur before\r\nthe title screen begins","parameters":{"Pre-Title Map ID":"1","Use As Title":"false"}},
 {"name":"MOG_MenuCursor","status":true,"description":"(v1.6) Adiciona um cursor animado no menu.","parameters":{"Slide Animation":"true","Cursor X-axis":"-7","Cursor Y-axis":"8","Frames Animation":"false","Max Frames":"4","Animation Speed":"7"}},
-{"name":"MOG_Credits","status":true,"description":"(v1.1) Adiciona a cena de créditos na tela de título.","parameters":{"Command Name":"Credits","Scrolling Speed":"1"}}
+{"name":"MOG_Credits","status":true,"description":"(v1.1) Adiciona a cena de créditos na tela de título.","parameters":{"Command Name":"Credits","Scrolling Speed":"1"}},
+{"name":"GALV_LayerGraphics","status":true,"description":"(v.2.0) Create graphic layers for parallax mapping, fog, etc. View the 'Help' document for plugin commands and info.","parameters":{"Tile Size":"48"}}
 ];
