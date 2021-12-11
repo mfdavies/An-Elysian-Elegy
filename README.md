@@ -2,45 +2,48 @@
 
 [An Elysian Elegy - web release](/releases/techdemo/index.html)
 
-Instructions:
-<br>    "WASD" or Arrow Keys to move.
-<br>    "G" to view the next goal of the level
-<br>    "R" to reset the level
-<br>    "SHIFT" to use the phase ability (Once aquired)
-<br>    "Z" + "X" while in a level to return to the hub 
-<br>    "SPACE" to intreact/move objects (pillars)
+INSTRUCTIONS:
+<br>"WASD" or Arrow Keys to move
+<br>"SPACE" to intreact/move objects (pillars)
+<br>"R" to reset the level
+<br>"G" to view the next goal of the level
+<br>"SHIFT" to use the phase ability (Once aquired)
+<br>"Z" + "X" while in a level to return to the hub
+<br>"L" to speed up time
 
 HINTS:
-<br>    - Pillars can be pushed into pits
-<br>    - Lasers can be blocked by pillars
-<br>    - Buttons can be held down by pillars
-<br>    - The gems are for completionists only
+<br>- Pillars can be pushed into pits
+<br>- Lasers can be blocked by pillars
+<br>- Buttons can be held down by pillars
+<br>- The gems are for completionists only, but as 
+you collect more, you might have an easier time
+with the final boss. You also might get some
+special dialogue too, depending on how many you
+are able to collect.
 
 
-<a href="https://docs.google.com/forms/d/15AAhhTlNMycyPB9DvteyIfN45OQdeaKFKBlT8OYBllo/edit?usp=drivesdk">Survey</a>
+## TEAM:
 
-## Starfall Interactive consists of...
+### PRODUCER
+Jason Lee
 
-### Producer
-- Jason Lee
+### LEAD DESIGNER
+Sean Meyers
 
-### Lead Designer
-- Sean Meyers
+### EXECUTIVE PRODUCER
+Nicole Chik
 
-### Art
-- Shirley Yang
+### ART
+Shirley Yang
 
-### Programming
-- Anthony Ma
-- Jason Lee
-- Matthew Davies
-- Sean Meyers
+### PROGRAMMING
+Anthony Ma
+Jason Lee
+Matthew Davies
+Sean Meyers
 
-### Sound
-- Sean Meyers
+### SOUND
+Sean Meyers
 
-### Writing
-- Marc Vermette
-
-### EP
-- Nicole Chik
+### WRITING
+Marc Vermette
