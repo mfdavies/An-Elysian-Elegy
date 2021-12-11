@@ -1,10 +1,5 @@
 
 
-
-## ------------------------------------------------
-## |         AN ELYSIAN ELEGY INFORMATION         |
-## ------------------------------------------------
-
 [Web Release](/releases/final-release/index.html)
 
 INSTRUCTIONS:
@@ -22,11 +17,8 @@ INSTRUCTIONS:
 HINTS:
 
 <br>- Pillars can be pushed into pits
-
 <br>- Lasers can be blocked by pillars
-
 <br>- Buttons can be held down by pillars
-
 <br>- The gems are for completionists only, but as 
 you collect more, you might have an easier time
 with the final boss. You also might get some
@@ -61,4 +53,3 @@ Sean Meyers
 ### WRITING
 Marc Vermette
 
-## ------------------------------------------------
