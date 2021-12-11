@@ -12,8 +12,8 @@ null,
 {"id":10,"expanded":true,"name":"TutorialB(10)","order":3,"parentId":6,"scrollX":811,"scrollY":1129},
 {"id":11,"expanded":true,"name":"Pre Boss","order":12,"parentId":6,"scrollX":819,"scrollY":461},
 {"id":12,"expanded":false,"name":"TutorialA(10)","order":2,"parentId":6,"scrollX":819,"scrollY":461},
-{"id":13,"expanded":true,"name":"Cutscene3","order":7,"parentId":6,"scrollX":442.6666666666667,"scrollY":558.2222222222222},
-{"id":14,"expanded":true,"name":"Cutscene4","order":10,"parentId":6,"scrollX":442.6666666666667,"scrollY":558.2222222222222},
+{"id":13,"expanded":true,"name":"Cutscene3","order":7,"parentId":6,"scrollX":819,"scrollY":461},
+{"id":14,"expanded":true,"name":"Cutscene4","order":10,"parentId":6,"scrollX":819,"scrollY":461},
 {"id":15,"expanded":true,"name":"Cutscene5","order":11,"parentId":6,"scrollX":819,"scrollY":461},
 {"id":16,"expanded":true,"name":"Post Boss","order":14,"parentId":6,"scrollX":811,"scrollY":739}
 ]
