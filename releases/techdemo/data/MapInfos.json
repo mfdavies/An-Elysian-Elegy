@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"Splash Screen","order":15,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":2,"expanded":true,"name":"Hub 1","order":4,"parentId":6,"scrollX":620.4444444444445,"scrollY":551.1111111111111},
-{"id":3,"expanded":true,"name":"Level 2B","order":9,"parentId":6,"scrollX":1227.5555555555557,"scrollY":551.1111111111111},
+{"id":3,"expanded":true,"name":"Level 2B","order":9,"parentId":6,"scrollX":1230,"scrollY":930},
 {"id":4,"expanded":true,"name":"Level 1A","order":5,"parentId":6,"scrollX":890.6666666666666,"scrollY":1155.5555555555557},
 {"id":5,"expanded":false,"name":"Credits Screen","order":16,"parentId":0,"scrollX":1965.6,"scrollY":1106.3999999999999},
 {"id":6,"expanded":true,"name":"Transition World","order":1,"parentId":0,"scrollX":811,"scrollY":790},
