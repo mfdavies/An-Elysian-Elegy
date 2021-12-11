@@ -45,6 +45,7 @@ Yoji Ojima
 
 Playtesters
 Andrew Su
+Arman Bahramloian
 Boris Fleysher
 Caroline Macdonald
 Dawn Estes McKnight
@@ -52,10 +53,8 @@ Faiyaz Ahmed
 Fatin Ahdiat
 Gaby Castaneda
 Hammad Khan
-Hannah Brown
 Jawdat Toume
 Jillian Muller
-Kristi Mandarich
 Lukas Bonkowski
 Mikee Castaneda
 Samuel Anderson
