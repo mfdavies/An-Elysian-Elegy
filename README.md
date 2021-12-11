@@ -3,7 +3,6 @@
 [Web Release](/releases/final-release/index.html)
 
 INSTRUCTIONS:
-
 <br>"WASD"      or Arrow Keys to move
 <br>"SPACE"     to interact/move objects (pillars)
 <br>"R"         to reset the level
@@ -15,7 +14,6 @@ INSTRUCTIONS:
 ## ------------------------------------------------
 
 HINTS:
-
 <br>- Pillars can be pushed into pits
 <br>- Lasers can be blocked by pillars
 <br>- Buttons can be held down by pillars
