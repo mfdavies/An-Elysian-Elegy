@@ -1,5 +1,7 @@
 
 
+[Github Release Page](https://mfdavies.github.io/An-Elysian-Elegy/)
+
 [Web Release](/releases/final-release/index.html)
 
 INSTRUCTIONS:
