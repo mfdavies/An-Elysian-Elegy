@@ -1,8 +1,4 @@
-
-
-[Github Release Page](https://mfdavies.github.io/An-Elysian-Elegy/)
-
-[Web Release](/releases/final-release/index.html)
+[Web Release](https://mfdavies.github.io/An-Elysian-Elegy/releases/final-release/index.html)
 
 INSTRUCTIONS:
 <br>"WASD"      or Arrow Keys to move
@@ -26,6 +22,8 @@ special dialogue too, depending on how many you
 are able to collect.
 
 ## ------------------------------------------------
+
+View the [Trello](https://trello.com/w/starfall250) to see the work prgress
 
 ## TEAM: 
 
